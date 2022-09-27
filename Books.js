@@ -23,10 +23,10 @@ export class Book {
   }
 }
 
-//instances to check the code functionality 
+// three different instances for test cases 
 
-let book1 = new Book('Book1','william','It is a test book number 1',23,0);
-let book2 = new Book('Book2','Jack','It is a test book number 2',50,0);
-let book3 = new Book('Book12','Harvey','It is a test book number 3',100,0);
+let book1 = new Book('terrains','william','It is a test book number 1',23,0);
+let book2 = new Book('the way u like','Jack','It is a test book number 2',50,0);
+let book3 = new Book('comedy to laugh','Harvey','It is a test book number 3',100,0);
 
 export const books = [book1,book2,book3];
